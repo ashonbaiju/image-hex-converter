@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Hex Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Hex Converter by sundaranum sumukanaum nishkalankanum aya ashon</h1>
+    
+    <!-- Section to convert image to hex and download -->
+    <h2>Convert Image to Hex</h2>
+    <input type="file" id="imageInput" accept="image/*">
+    <br>
+    <button id="convert-btn" class="btn-3d">Convert Image to Hex</button>
+    <br>
+    <a id="download-btn" href="#" download="image-hex.txt" class="btn-3d">Download Hex File</a>
+    
+    <!-- Section to convert hex back to image -->
+    <h2>Convert Hex to Image</h2>
+    <input type="file" id="hexInput" accept=".txt">
+    <br>
+    <button id="hex-convert-btn" class="btn-3d">Convert Hex to Image</button>
+    <br>
+    <a id="image-download-btn" href="#" download="restored-image.jpg" class="btn-3d">Download Image</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
